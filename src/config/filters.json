@@ -7,7 +7,8 @@
     "display": "Date",
     "type": "date",
     "description": "Set the date range to view changesets created during that duration.",
-    "placeholder": "YYYY-MM-DD"
+    "placeholder": "YYYY-MM-DD",
+    "relativeOption": true
   },
   {
     "name": "comment",

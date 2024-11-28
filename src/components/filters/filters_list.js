@@ -128,6 +128,15 @@ class FiltersList extends React.PureComponent<void, propsType, *> {
               max={today}
             />
           </span>
+          {f.relativeOption && (
+            <span className="flex-parent flex-parent--row h36">
+              <label class="switch-container">
+                <input type="checkbox" />
+                <div class="switch switch--blue mr6"></div>
+                Dynamic date filter
+              </label>
+            </span>
+          )}
         </Wrapper>
       );
     }
